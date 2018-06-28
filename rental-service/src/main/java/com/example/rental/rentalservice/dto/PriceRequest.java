@@ -1,4 +1,4 @@
-package com.example.rental.rentalservice.v1.dto;
+package com.example.rental.rentalservice.dto;
 
 import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonProperty;
