@@ -1,5 +1,5 @@
 server:
-  port=8080
+  port: 8080
 
 # prices for one day rental depending on customer profile plan
 pricing:
