@@ -1,19 +1,20 @@
-package com.example.rental.rentalservice.v1.dto;
+package com.example.rental.rentalservice.dto;
 
 import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
 import java.math.BigDecimal;
 
-public class RentalChargesResponse {
+public class PriceResponse {
     private final BigDecimal price;
 
     @JsonCreator
-    public RentalChargesResponse(@JsonProperty(required = true) BigDecimal price) {
+    public PriceResponse(@JsonProperty(value = "price", required = true) BigDecimal price) {
         this.price = price;
     }
 
     public BigDecimal getPrice() {
         return price;
     }
+
 }
