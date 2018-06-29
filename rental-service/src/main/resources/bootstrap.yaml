@@ -17,3 +17,7 @@ ribbon:
   http:
     client:
       enabled: true
+
+logging:
+  level:
+    com.example.rental.rentalservice.v3.feign.PricingClient: DEBUG
